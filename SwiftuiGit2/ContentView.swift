@@ -14,6 +14,13 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, world!")
+            Button {
+                print("hello")
+            } label: {
+                Text("press")
+            }
+            .buttonStyle(.borderedProminent)
+
         }
         .padding()
     }
